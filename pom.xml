@@ -3,6 +3,7 @@
   <groupId>com.myproject.smongo</groupId>
   <artifactId>spring-mongo-mvc-integration</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
