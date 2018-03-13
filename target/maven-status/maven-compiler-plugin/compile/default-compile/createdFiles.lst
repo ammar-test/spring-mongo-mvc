@@ -1,1 +1,5 @@
+com\project\smongo\mvc\repository\HomeRepository.class
+com\project\smongo\mvc\entity\JavaEntity.class
 com\project\smongo\mvc\controller\HomeController.class
+com\project\smongo\mvc\service\HomeService.class
+com\project\smongo\mvc\entity\HomeEntity.class
