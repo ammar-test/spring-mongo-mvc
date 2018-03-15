@@ -1,6 +1,7 @@
 package com.project.smongo.mvc.entity;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.TextIndexed;
 
 public class JavaEntity {
 
@@ -10,6 +11,7 @@ public class JavaEntity {
 	
 	private String javaHome;
 	
+	@TextIndexed
 	private String javaVersion;
 	
 	private String javaVendor;

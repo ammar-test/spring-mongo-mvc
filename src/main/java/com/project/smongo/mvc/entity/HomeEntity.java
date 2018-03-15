@@ -1,8 +1,8 @@
 package com.project.smongo.mvc.entity;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.TextIndexed;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection="homeentity")
 public class HomeEntity {
@@ -10,13 +10,15 @@ public class HomeEntity {
 	@Id
 	private String id;
 	
-	
+	@TextIndexed
 	private String osName;
 	
+	@TextIndexed
 	private String osVersion;
 	
 	private JavaEntity javaObject;
 	
+	@TextIndexed
 	private String userName;
 
 	public String getId() {
